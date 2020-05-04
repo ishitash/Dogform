@@ -1,0 +1,140 @@
+*{
+  box-sizing: border-box;
+}
+.over{
+	overflow: auto;
+	overflow-y: hidden;
+}
+.margins{
+	margin: 0px auto;
+}
+img{
+  width: 100%;
+}
+._100{
+	width: 100%;
+	float: left;
+}
+._25{
+	width: 25%;
+	float: left;
+}
+._50{
+	width: 50%;
+	float: left;
+}
+._80{
+	width: 80%;
+	text-align: center;
+}
+._20{
+	width: 20%;
+	float: left;
+}
+.one{
+	background-color: blue;
+}
+.two{
+	background-color: yellow;
+}
+.three{
+	background-color: orange;
+}
+.four{
+	background-color: purple;
+}
+label{
+	display: none;
+}
+#toggle{
+	display: none;
+}
+._33{
+	width: 33%;
+	float: left;
+}
+.mid{
+	height: 131px;
+}
+.images{
+	text-align: center;
+}
+.imagesize img{
+	width: 75%;
+	margin: 0px auto;
+}
+.imags{
+	padding: 30px;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 541px){
+	._25{
+		width: 50%;
+	}
+	._33{
+		width: 50%;
+	}
+	.imgs{
+		width: 33%;
+	}
+	.imagesize img{
+	width: 90%;
+	margin: 0 auto;
+	}
+	._50{
+		width: 50%;
+	}
+	/*imags{
+		width:100%;
+	}*/
+	.picsize{
+		width: 33%;
+		float: left;
+		padding: 20px;
+	}
+	.hid{
+		display: none;
+	}
+	
+}
+@media only screen and (max-width: 540px) and (min-width: 320px){
+	._25{
+		width: 100%;
+	}
+	._33{
+		width: 100%;
+	}
+	label{
+		float: right;
+		display: block;
+	}
+	.inside{
+		display: none;
+	}
+	#toggle:checked + .inside{
+		display: block;
+		width: 100%;
+	}
+	
+	.imagesize img{
+		width: 75%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	._50{
+		width: 100%;
+	}
+	.picsize{
+		width: 50%;
+		float: left;
+		padding: 20px;
+	}
+	.hid1{
+		display: none;
+	}
+	.hid{
+		display: none;
+	}
+}
+
+

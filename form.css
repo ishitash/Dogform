@@ -1,0 +1,161 @@
+*{
+  box-sizing: border-box;
+}
+.black{
+	background-color: black;
+	color: white;
+	font-weight: bolder;
+}
+body{
+	background: url(https://naldzgraphics.net/wp-content/uploads/2012/08/14-Happy.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+	background-repeat: repeat-x;
+}
+.loginbox{
+	width: 320px;
+	height: 600px;
+	background: rgba(0,0,0,0.3);
+	color: #fff;
+	top: 60%;
+	left: 50%;
+	position: absolute;
+	box-sizing: border-box;
+	transform: translate(-50%,-50%);
+	padding: 70px;
+}
+h1{
+	font-family: 'poppins',sans-serif;
+	font-size: 32px;
+	color: black;
+	font-weight: bolder;
+	padding: 0 0 20px;
+	margin: 0px;
+}
+.loginbox p{
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+.loginbox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.loginbox input[type="text"], input[type="email"], input[type="password"], input[type="phone"]{
+	border:none;
+	border-bottom: 1px solid #fff;
+	background-color: transparent;
+	outline: none;
+	height: 40px;
+	color: black;
+	font-size: 16px;
+}
+.loginbox input[type="submit"]{
+	border:none;
+	outline: none;
+	height: 40px;
+	background: rgb(14,32,67);
+	opacity: 0.8;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+
+}
+.loginbox input[type="submit"]:hover{
+	transform: scale(1.1);
+	transition: all .3s ease 0s;
+  	overflow: hidden;
+}
+.loginbox input[type="submit"]:hover{
+	background-color: black;
+	cursor: pointer;
+	}
+.avatar{
+	width: 100px;
+	height: 100px;
+	top: -30px;
+	border-radius: 50%;
+	position: absolute;
+	left: calc(50% - 50px);
+}
+._30{
+	width: 30%;
+}
+._70{
+	width: 70%;
+}
+._10{
+	width: 10%;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.padding{
+	padding-left: 10px;
+}
+li{
+	list-style: none;
+	display: inline-block;
+	font-weight: 600px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+li:hover{
+	color: rgb(149,64,64);
+}
+.margin{
+	margin: 0px auto;
+}
+.height{
+	width: 50px;
+	height: 50px;
+}
+.black ._30 h2{
+	font-size: 20px;
+	font-family: 'poppins', sans-serif;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 541px){
+	._70{
+		display: none;
+	}
+	#toggle:checked + ._70{
+		display: block;
+		width: 100%;
+		margin-top: 10px;
+	}
+	.loginbox{
+		margin-top:40px;
+	}
+	body{
+		background: url(https://images8.alphacoders.com/650/thumb-350-650205.jpg);
+		background-repeat: repeat-y;
+		background-size: cover;
+
+	}
+
+}
+@media only screen and (max-width: 540px) and (min-width: 320px){
+	._70{
+		display: none;
+	}
+	#toggle:checked + ._70{
+		display: block;
+		width: 5%;
+		margin-top: 10px;
+	}
+	.loginbox{
+		margin-top:90px;
+	}
+	body{
+		background: url(http://inn.spb.ru/images/600/DSC100631428.jpg);
+		background-repeat: repeat-y;
+		background-size: cover;
+
+	}
+}
